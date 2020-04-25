@@ -1,0 +1,15 @@
+Package: evmisc
+Type: Package
+Title: Evan's miscellaneous functions
+Version: 0.1.0
+Author: Evan Morrison
+Maintainer: Evan Morrison <emorrison@gmail.com>
+Description: 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr
+  ,purrr
+  ,readr
+  ,lubridate
+RoxygenNote: 7.0.1
