@@ -13,4 +13,7 @@ Imports: dplyr
   ,readr
   ,lubridate
   ,xml2
+  ,stringi
+  ,stringr
+  ,magrittr
 RoxygenNote: 7.0.1
