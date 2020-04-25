@@ -12,4 +12,5 @@ Imports: dplyr
   ,purrr
   ,readr
   ,lubridate
+  ,xml2
 RoxygenNote: 7.0.1
