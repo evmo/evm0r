@@ -4,7 +4,8 @@
 #' @param out_path file path to write
 #'
 #' @return
-#' @importFrom xml2 read_xml xml_find_all xml_text '%>%'
+#' @importFrom xml2 read_xml xml_find_all xml_text
+#' @importFrom magrittr '%>%'
 #' @export
 #'
 #' @examples

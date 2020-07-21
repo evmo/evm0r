@@ -16,4 +16,4 @@ Imports: dplyr
   ,stringi
   ,stringr
   ,magrittr
-RoxygenNote: 7.0.1
+RoxygenNote: 7.1.1
