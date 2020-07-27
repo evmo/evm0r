@@ -3,14 +3,13 @@
 #' @param string
 #'
 #' @return an URL-formatted string
-#' @importFrom magrittr '%>%'
 #' @export
 urlify <- function(string) {
-  stringi::stri_trans_general(string, "latin-ascii") %>%
-    gsub(" ", "-", .) %>%
-    gsub("[\\. ,'\\(\\)]", "", .) %>%
-    gsub("-{2,}", "-", .) %>%
-    tolower
+  s <- asciify(string)
+  s <- gsub(" ", "-", s)
+  s <- gsub("[\\. ,'\\(\\)]", "", s)
+  s <- gsub("-{2,}", "-", .)
+  tolower(s)
 }
 
 #' Translate string to ASCII

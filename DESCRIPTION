@@ -1,4 +1,4 @@
-Package: evmisc
+Package: evm0r
 Type: Package
 Title: Evan's miscellaneous functions
 Version: 0.1.0
@@ -8,12 +8,5 @@ Description:
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr
-  ,purrr
-  ,readr
-  ,lubridate
-  ,xml2
-  ,stringi
-  ,stringr
-  ,magrittr
+Imports: stringi
 RoxygenNote: 7.1.1
