@@ -8,7 +8,7 @@ urlify <- function(string) {
   s <- asciify(string)
   s <- gsub(" ", "-", s)
   s <- gsub("[\\. ,'\\(\\)]", "", s)
-  s <- gsub("-{2,}", "-", .)
+  s <- gsub("-{2,}", "-", s)
   tolower(s)
 }
 
