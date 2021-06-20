@@ -170,3 +170,19 @@ furthest3dates <- function(dates1, dates2, dates3) {
     days = max(ret1, ret2, ret3) - min(ret1, ret2, ret3)
   )
 }
+
+#' Find number of years between two dates
+#'
+#' @param date1
+#' @param date2
+#'
+#' @return integer years (rounded down)
+#' @export
+#' @importFrom lubridate as.period interval
+#'
+#' @examples
+year_interval <- function(date1, date2) {
+  date1 <- as.Date(date1)
+  date2 <- as.Date(date2)
+  as.period(interval(start = date1, end = date2))$year
+}
